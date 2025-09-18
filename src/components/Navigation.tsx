@@ -6,6 +6,7 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
+    { name: "For Resellers", href: "/resellers", icon: Users },
     { name: "Services", href: "#services", icon: Server },
     { name: "Features", href: "#features", icon: Shield },
     { name: "Pricing", href: "#pricing", icon: BarChart3 },
